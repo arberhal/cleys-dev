@@ -294,7 +294,7 @@
   </header>
   
   {#if showMenu}
-  <div class="menu bg-[#17191E] text-white pt-[104px] fixed w-[100vw] h-[100vh] {menuAnimationClass} h-[200vh] overflow-y-scroll">
+  <div class="menu bg-[#17191E] text-white pt-[104px] fixed w-[100vw] h-[100vh] {menuAnimationClass} overflow-y-scroll">
     <div class="flex mr-6 mb-3 justify-end py-6">
     
     </div>
