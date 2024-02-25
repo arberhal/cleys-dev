@@ -294,11 +294,9 @@
   </header>
   
   {#if showMenu}
-  <div class="menu bg-[#17191E] text-white pt-[104px] fixed w-[100vw] h-[100vh] {menuAnimationClass} overflow-y-scroll">
-    <div class="flex mr-6 mb-3 justify-end py-6">
+  <div class="menu bg-[#17191E] text-white pt-[104px] fixed w-[100vw] h-[100vh] {menuAnimationClass} overflow-y-scroll flex flex-col justify-between">
     
-    </div>
-    <div class="mx-4 mb-[110px] h-[430px] animated-item">
+    <div class="mx-4 pt-16 animated-item">
       <ul>
         <li class="mb-2 text-[30px]"><a href="/about">Über uns</a></li>
         <li class="mb-2 text-[30px]"><a href="/projects">Projekte</a></li>
@@ -306,17 +304,18 @@
         <li class="mb-2 text-[30px]"><a href="/contact">Kontakt</a></li>
       </ul>
     </div>
-    <div class="mx-6 h-[60px] mb-[60px] animated-item">
+    <div class="mx-4  mb-[40px] animated-item">
       <p class="text-sm mb-[5px]">Kontaktiere uns direkt</p>
       <a href="mailto:info@cleys.ch" class="text-3xl">info@cleys.ch</a>
+      <div class="flex animated-item pb-16 pt-8">
+        <a href="https://instagram.com/cleys.ch" target="_blank">
+         <img src="{instagram}" alt="" class="h-[25px] w-[25px] mr-6">
+        </a>
+        <a href="https://linkedin.com/cleys" target="_blank">
+          <img src="{linkedin}" alt="" class="h-[25px] w-[25px]">
+        </a>
+      </div>
     </div>
-    <div class="flex mx-6 mb-[45px] animated-item">
-      <a href="https://instagram.com/cleys.ch" target="_blank">
-       <img src="{instagram}" alt="" class="h-[25px] w-[25px] mr-6">
-      </a>
-      <a href="https://linkedin.com/cleys" target="_blank">
-        <img src="{linkedin}" alt="" class="h-[25px] w-[25px]">
-      </a>
-    </div>
+    
   </div>
   {/if}
