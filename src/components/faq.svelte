@@ -16,6 +16,7 @@
   }
 </script>
 <!-- Layout START -->
+<!-- Layout START -->
 <div class="mx-auto max-w-[1568px]">
   <div
     class="grid grid-cols-2 lg:grid-cols-12 gap-4 lg:gap-5 mt-32 mx-4 lg:mx-16"
