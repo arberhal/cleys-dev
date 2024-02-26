@@ -20,7 +20,8 @@
       display: inline-flex;
       align-items: center;
       gap: 8px; /* Adjust space between text and icon */
-      padding: 8px;
+      padding-bottom: 4px;
+      padding-top: 4px;
       border: none;
       background: transparent;
       cursor: pointer;
@@ -39,7 +40,7 @@
       left: 0;
       width: 100%;
       height: 3px;
-      background-color: #D1D5DB; /* Grayish underline */
+      background-color: #cbd5e1; /* Grayish underline */
     }
   
     .text-container::after {
