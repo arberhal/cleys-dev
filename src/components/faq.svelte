@@ -36,7 +36,7 @@
       <!-- First Accordion Item-->
       <div class="border-gray-200 border-b pb-4 pt-8 lg:pt-0">
         <button
-          class="inline-flex items-center justify-between w-full md:text-lg font-semibold text-start text-gray-800 rounded-lg transition hover:text-gray-500 dark:text-gray-200 dark:hover:text-gray-400"
+          class="inline-flex items-center justify-between w-full font-semibold text-start transition hover:text-gray-500"
           on:click={() => toggleItem(1)}
         >
           <p class="text-body">Can i cancel anytime?</p>
@@ -84,7 +84,7 @@
       <!-- Third Accordion Item-->
       <div class="border-gray-200 border-b pb-4 pt-4">
         <button
-          class="inline-flex items-center justify-between w-full md:text-lg font-semibold text-start text-gray-800 rounded-lg transition hover:text-gray-500 dark:text-gray-200 dark:hover:text-gray-400"
+          class="inline-flex items-center justify-between w-full font-semibold text-start transition hover:text-gray-500"
           on:click={() => toggleItem(2)}
         >
           <p class="text-body">How does cleys pricing work?</p>
@@ -132,7 +132,7 @@
       <!-- Third Accordion Item-->
       <div class="border-gray-200 border-b pb-4 pt-4">
         <button
-          class="inline-flex items-center justify-between w-full md:text-lg font-semibold text-start text-gray-800 rounded-lg transition hover:text-gray-500 dark:text-gray-200 dark:hover:text-gray-400"
+          class="inline-flex items-center justify-between w-full font-semibold text-start transition hover:text-gray-500"
           on:click={() => toggleItem(3)}
         >
           <p class="text-body">How secure is cleys?</p>
@@ -180,7 +180,7 @@
       <!-- Fourth Accordion Item-->
       <div class="border-gray-200 border-b pb-4 pt-4">
         <button
-          class="inline-flex items-center justify-between w-full md:text-lg font-semibold text-start text-gray-800 rounded-lg transition hover:text-gray-500 dark:text-gray-200 dark:hover:text-gray-400"
+          class="inline-flex items-center justify-between w-full font-semibold text-start transition hover:text-gray-500"
           on:click={() => toggleItem(4)}
         >
           <p class="text-body">How do i get acces to a theme Purchased?</p>
