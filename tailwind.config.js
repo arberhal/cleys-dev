@@ -10,6 +10,8 @@ export default {
 		'heading-md': ['clamp(1.25rem, 1.05rem + 0.8vw, 1.75rem);', {lineHeight: '130%', letterSpacing: '-2%'}],
 
 		'body': ['clamp(1.125rem, 0.975rem + 0.6vw, 1.5rem);', {lineHeight: '150%', letterSpacing: '0%'}],
+
+    "xs": ['20px', {lineHeight: '150%', letterSpacing: '0%',}],
 },
     extend: {}
   },
