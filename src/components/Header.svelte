@@ -246,7 +246,7 @@
   </style>
   
   <header class="header {headerClass} lg:flex lg:justify-center fixed">
-      <div class="flex justify-between lg:w-[1440px] lg:min-w-[1024px] mx-4 py-8 lg:mx-16">
+      <div class="flex justify-between lg:w-[1440px] mx-4 py-8 lg:mx-16">
           <div class="h-[40px]"> 
         <a href="/" class="items-center"> 
             <svg id="Ebene_1" data-name="Ebene 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 484.37 138.26" class="{logoColor} fill- h-[40px]">
