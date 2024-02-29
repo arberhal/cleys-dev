@@ -18,7 +18,7 @@
 <!-- Layout START -->
 <div class="mx-auto max-w-[1568px]">
   <div
-    class="grid grid-cols-2 lg:grid-cols-12 gap-4 lg:gap-5 mt-32 mx-4 lg:mx-16"
+    class="grid grid-cols-2 lg:grid-cols-12 gap-4 lg:gap-5 lg:mt-64 mt-32 mx-4 lg:mx-16"
   >
     <div class="lg:col-span-4 col-span-2">
       <p class="text-gray-500 text-body">
