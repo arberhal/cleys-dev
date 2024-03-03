@@ -16,6 +16,8 @@ export default {
 
     "xs": ['20px', {lineHeight: '150%', letterSpacing: '0%',}],
 
+    "xxs": ['18px', {lineHeight: '100%', letterSpacing: '0%',}],
+
 },
     extend: {}
   },
