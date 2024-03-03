@@ -1,6 +1,5 @@
 <script>
   import LaReinigung from "../lib/images/LA-Reinigung.png";
-  import apple from "../lib/images/apple.webp";
   import PrimaryButton from "./primary-button.svelte";
   import lvhair from "../lib/images/LvHair.jpg";
 </script>
