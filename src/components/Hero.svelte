@@ -18,10 +18,10 @@
                 </p>
                 <PrimaryButton text="Jetzt Beratung anfordern"></PrimaryButton>
                 <p class="text-body pt-16">Trusted by the world's most innovative Teams</p>
-                <div class="flex justify-start items-center space-x-8 pt-8">
-                    <img src={Shopify} alt="Shopify Logo" class="lg:h-[40px] h-[30px] opacity-50">
-                    <img src={Hostpoint} alt="Hostpoint Logo" class="lg:h-[35px] h-[25px] opacity-50">
-                    <img src={Shore} alt="Shore Logo" class="lg:h-[35px] h-[25px] opacity-50">
+                <div class="flex justify-start items-center space-x-4 pt-8 overflow-hidden">
+                    <img src={Shopify} alt="Shopify Logo" class="lg:h-[40px] h-[25px] opacity-50">
+                    <img src={Hostpoint} alt="Hostpoint Logo" class="lg:h-[35px] h-[20px] opacity-50">
+                    <img src={Shore} alt="Shore Logo" class="lg:h-[35px] h-[20px] opacity-50">
                 </div>
             </div>
             <div class="border-black border-2 rounded-xl col-span-5 -mt-16 hidden lg:flex"></div>
