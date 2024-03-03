@@ -9,7 +9,7 @@
         <img src="" alt="">
         <div>
             <p><b>Hostpoint AG</b></p>
-            <p class="mt-2">Webhosting-Provider</p>
+            <p class="mt-2">Webhosting-Providerrr</p>
             <PrimaryButton text="Mehr erfahren" />
         </div>
      </div>
