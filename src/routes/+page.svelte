@@ -2,15 +2,14 @@
   import TechnologySection from "../components/TechnologySection.svelte";
 import Faq from "../components/faq.svelte";
 import Portfolio from "../components/Portfolio.svelte";
+import Hero from "../components/Hero.svelte";
 </script>
 
 
-<h1>Hello World!</h1>
+<Hero></Hero>
 
 <TechnologySection></TechnologySection>
-<Faq>
-</Faq>
 
-<Faq/>
 <Portfolio/>
 
+<Faq/>
