@@ -77,24 +77,24 @@
     <div class="w-1/2 my-8 lg:w-auto">
       <a href="/Lösungen" class="text-heading-md font-semi">Lösungen</a>
       <ul class="text-body mt-2 font-thin lg:text-xs">
-        <li><a href="">Webentwicklung</a></li>
-        <li><a href="">Branding</a></li>
-        <li><a href="">E-Commerce</a></li>
+        <li><a href="/Webentwicklung">Webentwicklung</a></li>
+        <li><a href="/branding">Branding</a></li>
+        <li><a href="/e-commerce">E-Commerce</a></li>
       </ul>
     </div>
     <div class="w-1/2 my-8 lg:w-auto">
       <a href="/Lösungen" class="text-heading-md font-semi">Unternehmen</a>
       <ul class="text-body mt-2 font-thin lg:text-xs">
-        <li><a href="">Über uns</a></li>
-        <li><a href="">Blog</a></li>
-        <li><a href="">Jobs & Karriere</a></li>
+        <li><a href="/ueber-uns">Über uns</a></li>
+        <li><a href="/blog">Blog</a></li>
+        <li><a href="/karriere">Jobs & Karriere</a></li>
       </ul>
     </div>
     <div class="w-1/2 my-8 lg:hidden">
       <a href="/Lösungen" class="text-heading-md font-semi">Rechtliches</a>
       <ul class="mt-2 font-thin text-xs">
-        <li><a href="">Impressum</a></li>
-        <li><a href="">Datenschutz</a></li>
+        <li><a href="/impressum">Impressum</a></li>
+        <li><a href="/datenschutz">Datenschutz</a></li>
       </ul>
     </div>
     <div class="w-1/2 my-8 lg:hidden">
@@ -107,7 +107,7 @@
       </ul>
     </div>
     <div class="lg:hidden my-8">
-      <a href="" class="text-heading-md font-semi">Folge Uns!</a>
+      <p class="text-heading-md font-semi">Folge Uns!</p>
       <div class="flex mt-4">
         <a href="https://instagram.com/cleys.ch" target="_blank">
           <img src={instagram} alt="" class="h-[25px] w-[25px] mr-6" />
@@ -118,7 +118,7 @@
       </div>
     </div>
     <div class="lg:flex lg:flex-col my-8 lg:w-auto h-[40px] hidden">
-      <a href="" class="text-heading-md text-bold">Folge Uns!</a>
+        <p class="text-heading-md text-bold">Folge Uns!</p>
       <div class="flex mt-2">
         <a href="https://instagram.com/cleys.ch" target="_blank">
           <img src={instagram} alt="" class="h-[30px] w-[30px] mr-6" />
