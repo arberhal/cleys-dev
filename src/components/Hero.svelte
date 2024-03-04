@@ -3,6 +3,11 @@
     import Shopify from "../lib/images/Shopify.png";
     import Hostpoint from "../lib/images/Hostpoint.png";
     import Shore from "../lib/images/shore.png";
+
+    function scheduleTime() {
+        Calendly.initPopupWidget({url: 'https://calendly.com/bookcleys'});
+        return false;
+    }
 </script>
 
 <div class="flex items-center justify-center mx-auto max-w-[1568px]">
@@ -16,7 +21,8 @@
                     Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem
                     cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.
                 </p>
-                <PrimaryButton text="Jetzt Beratung anfordern"></PrimaryButton>
+                <a href="#" on:click={scheduleTime}>
+                    <PrimaryButton text="Jetzt Beratung anfordern"></PrimaryButton>
                 <p class="text-body pt-16">Trusted by the world's most innovative Teams</p>
                 <div class="flex justify-start items-center space-x-4 pt-8 overflow-hidden">
                     <img src={Shopify} alt="Shopify Logo" class="lg:h-[40px] h-[25px] opacity-50">
