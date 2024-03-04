@@ -93,4 +93,5 @@
         <div class="mt-4">
             <button class="py-3 px-4 bg-black text-white rounded-[5px] text-xxs">Explore Webentwicklung</button>
         </div>
+      </div>
 </section>

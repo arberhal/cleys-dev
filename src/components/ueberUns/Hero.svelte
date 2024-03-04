@@ -5,7 +5,7 @@
 <section class="flex justify-center mt-12">
   <div class="mx-4 flex flex-col lg:flex-row lg:mx-16 lg:max-w-[1440px]">
     <div>
-      <div class="text-display-md text-[#0079C1] font-bold">
+      <div class="text-display-md text-[#0079C1] font-bold lg:text-[52px]">
         <h2>We transform brands through elevated digital experiences</h2>
       </div>
       <div class=" mt-8 text-body">
@@ -26,7 +26,7 @@
       </div>
     </div>
     <div>
-      <img src={cubic} alt="" />
+      <img src={cubic} alt="cubic" />
     </div>
   </div>
 </section>

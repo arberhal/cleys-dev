@@ -35,17 +35,17 @@
   <div class="mx-4 flex flex-col max-w-[1440px] lg:mx-16">
     <div class="lg:flex lg:flex-row ">
       <div class="lg:mr-48">
-        <p class="text-display-lg text-[#0079C1] font-bold mt-8">{$teamMembers}</p>
+        <p class="text-display-lg text-[#0079C1] font-bold mt-8 lg:text-[80px]">{$teamMembers}</p>
         <p class="text-body mt-2">Team Members</p>
       </div>
       <div class="lg:mr-48">
-        <p class="text-display-lg text-[#0079C1] font-bold mt-8">
+        <p class="text-display-lg text-[#0079C1] font-bold mt-8 lg:text-[80px]">
           {$yearsInBusiness}
         </p>
         <p class="text-body mt-2">Years in Business</p>
       </div>
       <div>
-        <p class="text-display-lg text-[#0079C1] font-bold mt-8">
+        <p class="text-display-lg text-[#0079C1] font-bold mt-8 lg:text-[80px]">
           {$projectsCompleted}
         </p>
         <p class="text-body mt-2">Projects Completed</p>
@@ -53,7 +53,7 @@
     </div>
     <div>
       <div class="mt-32">
-        <p class="text-display-lg text-[#0079C1] font-bold mt-8">St. Gallen</p>
+        <p class="text-display-lg text-[#0079C1] font-bold mt-8 lg:text-[80px]">St. Gallen</p>
         <p class="text-body mt-2">Headquarters</p>
         <p class="mt-32 text-body lg:w-1/2">
           We're a global group of strategists, designers, and engineers building
