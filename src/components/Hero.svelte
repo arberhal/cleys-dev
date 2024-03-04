@@ -1,6 +1,6 @@
 <script>
     import PrimaryButton from "./primary-button.svelte";
-    import Shopify from "../lib/images/Shopify_Secondary.png";
+    import Shopify from "../lib/images/Shopify.png";
     import Hostpoint from "../lib/images/Hostpoint.png";
     import Shore from "../lib/images/shore.png";
 </script>

@@ -5,7 +5,7 @@
 </script>
 
 <Header/>
-<main class="h-[500vh] z-999">
+<main>
     <slot/>
 </main>
 <Footer/>
