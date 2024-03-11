@@ -1,8 +1,8 @@
 <script>
-  import LaReinigung from "../lib/images/LA-Reinigung.png";
-  import PrimaryButton from "./primary-button.svelte";
-  import lvhair from "../lib/images/LvHair.jpg";
-  import AS from "../lib/images/LA.png";
+  import LaReinigung from "$lib/images/LA-Reinigung.png";
+  import PrimaryButton from "../primary-button.svelte";
+  import lvhair from "$lib/images/LvHair.jpg";
+  import AS from "$lib/images/LA.png";
 </script>
 
 <style>

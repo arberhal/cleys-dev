@@ -273,7 +273,7 @@
             <div class="lg:flex hidden">
           <ul class="lg:flex max-h-[40px] items-center">
             <li class="text-[20px] lg:ml-12 animate-border"><a href="/projects">Projekte</a></li>
-            <li class="text-[20px] lg:ml-12 animate-border"><a href="/services">Services</a></li>
+            <li class="text-[20px] lg:ml-12 animate-border"><a href="/dienstleistungen">Services</a></li>
             <li class="text-[20px] lg:ml-12 animate-border"><a href="/ueberuns">Über uns</a></li>
             <li class="text-[20px] lg:ml-12 animate-border"><a href="/projects">Blog</a></li>
             <li class="text-[20px] lg:ml-12 animate-border"><a href="/kontakt">Kontakt</a></li>
@@ -300,7 +300,7 @@
       <ul>
         <li class="mb-2 text-[30px]"><a href="/ueberuns">Über uns</a></li>
         <li class="mb-2 text-[30px]"><a href="/projects">Projekte</a></li>
-        <li class="mb-2 text-[30px]"><a href="/services">Services</a></li>
+        <li class="mb-2 text-[30px]"><a href="/dienstleistungen">Services</a></li>
         <li class="mb-2 text-[30px]"><a href="/contact">Kontakt</a></li>
       </ul>
     </div>
