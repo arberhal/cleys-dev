@@ -5,6 +5,7 @@
   
     let lastScrollTop = 0;
     let headerClass = 'header-visible';
+
   
     function handleScroll() {
       let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
@@ -30,6 +31,7 @@
     let logoColor = "fill-[#0079C1]"
     let hamburgerClass = "";
     let iconColor = "bg-black";
+    let headerBG = 'bg-white';
   
     function toggleMenu() {
       if (showMenu) {
@@ -48,8 +50,11 @@
         iconColor = "bg-white";
         document.body.style.overflow = 'hidden';
         hamburgerClass = "animate";
+        headerBG = 'bg-transparent';
       }
     }
+   
+  
   </script>
 
   <style>
@@ -245,7 +250,7 @@
     }
   </style>
   
-  <header class="header {headerClass} lg:flex lg:justify-center fixed">
+  <header class="header {headerClass} {headerBG} lg:flex lg:justify-center fixed ">
       <div class="flex justify-between lg:w-[1440px] mx-4 py-8 lg:mx-16">
           <div class="h-[40px]"> 
         <a href="/" class="items-center"> 
@@ -298,10 +303,10 @@
     
     <div class="mx-4 pt-16 animated-item">
       <ul>
-        <li class="mb-2 text-[30px]"><a href="/ueberuns">Über uns</a></li>
-        <li class="mb-2 text-[30px]"><a href="/projects">Projekte</a></li>
-        <li class="mb-2 text-[30px]"><a href="/dienstleistungen">Services</a></li>
-        <li class="mb-2 text-[30px]"><a href="/contact">Kontakt</a></li>
+        <li class="mb-2 text-[30px] " on:click={toggleMenu}><a href="/ueberuns">Über uns</a></li>
+        <li class="mb-2 text-[30px]" on:click={toggleMenu}><a href="/projects">Projekte</a></li>
+        <li class="mb-2 text-[30px]" on:click={toggleMenu}><a href="/dienstleistungen">Services</a></li>
+        <li class="mb-2 text-[30px]" on:click={toggleMenu}><a href="/contact">Kontakt</a></li>
       </ul>
     </div>
     <div class="mx-4  mb-[40px] animated-item">
