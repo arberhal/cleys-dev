@@ -30,7 +30,7 @@
     <div class="grid grid-cols-2 lg:grid-cols-12 gap-4 lg:gap-6 mx-4 lg:mx-16">
       <div class="lg:col-span-7 col-span-2">
         <div style="opacity: 1; transform: none;">
-            <form bind:this={form} on:submit|preventDefault={sendEmail}>
+            <form bind:this={form} on:submit|preventDefault={sendEmail} id="form" action="?" method="POST">
                 <h2 class="text-body font-bold text-neutral-950">
                     Kontaktformular
                 </h2>
@@ -159,6 +159,7 @@
                     >
                   </div>
                 </div>
+                <div class="g-recaptcha" data-sitekey="6Lc1kJUpAAAAAH6ifBw5YaBU1Uho3SQCjOWH3MnZ"></div>
                 <div class="pt-8">
                 <FormButton text="Nachricht senden" />
                  </div>
