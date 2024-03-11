@@ -10,7 +10,7 @@
   let form;
   let submissionSuccess = 0;
 
-  const sendEmail = (/** @type {{ target: string | HTMLFormElement; }} */ e) => {
+  const sendEmail = (e) => {
       emailjs
         .sendForm('service_lkg6jag', 'template_61hvh59', e.target, {
           publicKey: 'z3T9hSU5_sCj8jeqz',
