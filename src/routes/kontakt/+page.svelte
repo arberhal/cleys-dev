@@ -1,6 +1,5 @@
 <script>
   import Contactform from "../../components/kontakt/Contactform.svelte";
-  import Formtest from "../../components/kontakt/formtest.svelte";
 </script>
 <div class="relative isolate flex w-full flex-col pt-9"
 style="transform: none; transform-origin: 50% 50% 0px;">
@@ -30,5 +29,3 @@ style="transform: none; transform-origin: 50% 50% 0px;">
 </div>
 
 <Contactform />
-<Formtest />
-
