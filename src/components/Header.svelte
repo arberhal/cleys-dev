@@ -281,7 +281,7 @@
             <li class="text-[20px] lg:ml-12 animate-border"><a href="/dienstleistungen">Services</a></li>
             <li class="text-[20px] lg:ml-12 animate-border"><a href="/ueberuns">Über uns</a></li>
             <li class="text-[20px] lg:ml-12 animate-border"><a href="/projects">Blog</a></li>
-            <li class="text-[20px] lg:ml-12 animate-border"><a href="/contact">Kontakt</a></li>
+            <li class="text-[20px] lg:ml-12 animate-border"><a href="/kontakt">Kontakt</a></li>
           </ul>
             </div>
         <div class="lg:hidden">
