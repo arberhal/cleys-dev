@@ -10,11 +10,11 @@
     }
 </script>
 
-<div class="flex items-center justify-center mx-auto max-w-[1568px]">
+<div class="flex items-center justify-center mx-auto max-w-[1568px] mb-60">
     <div class="flex flex-col justify-center items-center w-full lg:pt-32 pt-8">
         <div class="grid grid-cols-2 lg:grid-cols-12 gap-4 lg:gap-6 mx-4 lg:mx-16 relative">
             <div class="lg:col-span-7 col-span-2">
-                <h2 class="text-display-lg font-bold pt-3 pb-2">
+                <h2 class="text-display-lg lg:text-[72px] font-bold pt-3 pb-2 cleys">
                     cleys is a global branding and UX design agency
                 </h2>
                 <p class="text-body pb-2">
