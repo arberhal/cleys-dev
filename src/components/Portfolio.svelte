@@ -19,13 +19,13 @@ img:hover {
 
 </style>
 
-<section class=" flex justify-center mt-32 lg:mt-60">
+<section class=" flex justify-center">
   <div class="lg:w-[1440px] mx-4 lg:mx-16 lg:max-w-[1440px]">
     <div>
       <p class="text-gray-500 text-body">
         Software for Ventures & Private Equity
       </p>
-      <h2 class="text-display-md font-bold pt-3 pb-2">Our Work</h2>
+      <h2 class="text-display-md font-bold pt-3 pb-2 cleys">Our Work</h2>
     </div>
     
     <div class="portfolio lg:flex lg:justify-between mt-14">

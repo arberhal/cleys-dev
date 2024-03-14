@@ -1,6 +1,6 @@
 <script lang="ts">
     let selectedContent = 'Webentwicklung';
-    let contents = ['Webentwicklung', 'Branding', 'E-Commerce'];
+    let contents = ['Webentwicklung','E-Commerce', "SEO", 'Branding',  "Modern Workplace","Künstliche Intelligenz"];
     let index = 0;
     let timer;
 
@@ -42,21 +42,24 @@
     }
 </style>
 
-<section class="flex justify-center">
+<section class="flex justify-center mb-48">
 
     <div class="max-w-[1440px] w-[1440px] lg:flex mx-16 hidden flex-col">
         <div class="mb-16 w-full">
             <p class="text-gray-500 text-body">
               Software for Ventures & Private Equity
             </p>
-            <h2 class="text-display-md font-bold pt-3 pb-2">We help to build and <br> transform digital products</h2>
+            <h2 class="text-display-md font-bold pt-3 pb-2 cleys">We help to build and <br> transform digital products</h2>
           </div>
           <div class="flex">
         <div class="w-1/3 flex flex-col justify-between mr-3">
           <div>
             <button class=" text-heading-md button flex py-4 border-t-[1px] border-b-[1px] w-full {selectedContent === 'Webentwicklung' ? 'selected' : ''}" on:click={() => handleClick('Webentwicklung')}>Webentwicklung</button>
-            <button class="text-heading-md button flex py-4 border-b-[1px] w-full {selectedContent === 'Branding' ? 'selected' : ''}" on:click={() => handleClick('Branding')}>Branding</button>
             <button class="text-heading-md button flex py-4 border-b-[1px] w-full {selectedContent === 'E-Commerce' ? 'selected' : ''}" on:click={() => handleClick('E-Commerce')}>E-Commerce</button>
+            <button class="text-heading-md button flex py-4 border-b-[1px] w-full {selectedContent === 'SEO' ? 'selected' : ''}" on:click={() => handleClick('SEO')}>SEO</button>
+            <button class="text-heading-md button flex py-4 border-b-[1px] w-full {selectedContent === 'Branding' ? 'selected' : ''}" on:click={() => handleClick('Branding')}>Branding</button> 
+            <button class="text-heading-md button flex py-4 border-b-[1px] w-full {selectedContent === 'Modern Workplace' ? 'selected' : ''}" on:click={() => handleClick('Modern Workplace')}>Modern Workplace</button>
+            <button class="text-heading-md button flex py-4 border-b-[1px] w-full {selectedContent === 'Künstliche Intelligenz' ? 'selected' : ''}" on:click={() => handleClick('Künstliche Intelligenz')}>Künstliche Intelligenz</button> 
             <div>
               <p>{selectedContent}</p>
             </div>
@@ -69,6 +72,9 @@
           {/if}
           {#if selectedContent === 'Branding'}
             <div>Extra content for Branding</div>
+          {/if}
+          {#if selectedContent === 'E-Commerce'}
+            <div>Extra content for E-Commerce</div>
           {/if}
           {#if selectedContent === 'E-Commerce'}
             <div>Extra content for E-Commerce</div>

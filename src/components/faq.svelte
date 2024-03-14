@@ -16,7 +16,7 @@
   }
 </script>
 <!-- Layout START -->
-<div class="mx-auto max-w-[1568px]">
+<div class="mx-auto max-w-[1568px] mb-48">
   <div
     class="grid grid-cols-2 lg:grid-cols-12 gap-4 lg:gap-5 lg:mt-64 mt-32 mx-4 lg:mx-16"
   >
@@ -24,7 +24,7 @@
       <p class="text-gray-500 text-body">
         Software for Ventures & Private Equity
       </p>
-      <h2 class="text-display-md font-bold pt-3 pb-2">
+      <h2 class="text-display-md font-bold pt-3 pb-2 cleys">
         Häufig gestellte Fragen
       </h2>
       <p class="text-body pb-2">Brauchen Sie weitere Hilfe?</p>
