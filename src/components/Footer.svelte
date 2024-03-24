@@ -6,7 +6,7 @@
 </script>
 
 <footer
-  class="bg-[#17191E] flex justify-center lg:items-center"
+  class="bg-[#17191E] flex justify-center lg:items-center mt-48"
 >
   <div
     class="lg:max-w-[1440px] lg:flex lg:justify-between mx-4 flex flex-wrap text-white mt-8 lg:w-full lg:pt-8 lg:mx-16"
@@ -78,8 +78,12 @@
       <a href="/Lösungen" class="text-heading-md font-semi">Lösungen</a>
       <ul class="text-body mt-2 font-thin lg:text-xs">
         <li><a href="/Webentwicklung">Webentwicklung</a></li>
-        <li><a href="/branding">Branding</a></li>
         <li><a href="/e-commerce">E-Commerce</a></li>
+        <li><a href="/e-commerce">SEO</a></li>
+        <li><a href="/branding">Branding</a></li>
+        
+        <li><a href="/e-commerce">Modern Workplace</a></li>
+        <li><a href="/e-commerce">Künstliche Intelligenz</a></li>
       </ul>
     </div>
     <div class="w-1/2 my-8 lg:w-auto">
