@@ -20,43 +20,43 @@ img:hover {
 </style>
 
 <section class=" flex justify-center">
-  <div class="lg:w-[1440px] mx-4 lg:mx-16 lg:max-w-[1440px]">
+  <div class="lg:w-[1440px] mx-4 lg:mx-16 md:mx-10 lg:max-w-[1280px]">
     <div>
       <p class="text-gray-500 text-body">
-        Software for Ventures & Private Equity
+        Was uns stets weiter motiviert!
       </p>
-      <h2 class="text-display-md font-bold pt-3 pb-2 cleys">Our Work</h2>
+      <h2 class="text-display-md font-bold pt-3 pb-2 cleys">Unsere Projekte</h2>
     </div>
     
     <div class="portfolio lg:flex lg:justify-between mt-14">
       
       <div class="lg:mx-16 lg:mt-0 mt-10">
-        <a href="/LA-Reinigung">
+        <a href="https://la-reinigung.ch/">
         <img
           src={LaReinigung}
-          alt="apple"
+          alt="Icon LA-Reinigung"
           class="lg:max-w-[768px] max-w-[400px] w-full rounded-[10px]"
         />
       </a>
         <ul class="flex text-white flex-wrap">
           <li class="bg-black py-2 px-4 rounded-[50px] mr-4 mt-4">UI/UX</li>
           <li class="bg-black py-2 px-4 rounded-[50px] mr-4 mt-4">Branding</li>
-          <li class="bg-black py-2 px-4 rounded-[50px] mr-4 mt-4">Text-to-Speech</li>
+          <li class="bg-black py-2 px-4 rounded-[50px] mr-4 mt-4">Digital appearance</li>
         </ul>
         <div class="w-full mb-4">
           <h2 class="text-heading-lg font-bold pt-3 pb-2">LA Reinigungen</h2>
           <p class="text-gray-500 text-body">
-            Software for Ventures & Private Equity
+            Ihr Partner für Reinigungsdienstleistungen.
           </p>
         </div>
-        <PrimaryButton text="View Case Study"/>
+        <PrimaryButton text="View Page" link="https://la-reinigung.ch/"/>
       </div>
     
       <div class="lg:mx-16 lg:pt-[120px] lg:mt-0 mt-16">
-        <a href="/LV-Hairextension">
+        <a href="https://www.lvhairextension.com/">
         <img
           src={lvhair}
-          alt="apple"
+          alt="LV-Hairextension Logo"
           class="lg:max-w-[768px] max-w-[400px] w-full bg-gray-200 rounded-[10px]"
         />
       </a>
@@ -68,10 +68,10 @@ img:hover {
         <div class="w-full mb-4">
           <h2 class="text-heading-lg font-bold pt-3 pb-2">LV Hairextension</h2>
           <p class="text-gray-500 text-body">
-            Software for Ventures & Private Equity
+            Hairextension & Haircare für jeden.
           </p>
         </div>
-        <PrimaryButton text="View Case Study" />
+        <PrimaryButton text="View Page" link="https://www.lvhairextension.com/"/>
       </div>
     </div>
   </div>
@@ -81,25 +81,25 @@ img:hover {
   <div class="lg:w-[1440px] mx-4 lg:mx-16 lg:max-w-[1440px]">
     <div class="lg:flex lg:justify-between mt-14 lg:px-16">
       <div class="lg:px-16 lg:mt-0 mt-10">
-        <a href="/LA-Reinigung">
+        <a href="https://autosirnach.ch">
         <img
           src={AS}
-          alt="apple"
+          alt="Auto-Sirnach logo"
           class="w-full rounded-[10px]"
         />
       </a>
         <ul class="flex text-white flex-wrap">
           <li class="bg-black py-2 px-4 rounded-[50px] mr-4 mt-4">UI/UX</li>
           <li class="bg-black py-2 px-4 rounded-[50px] mr-4 mt-4">Branding</li>
-          <li class="bg-black py-2 px-4 rounded-[50px] mr-4 mt-4">Text-to-Speech</li>
+          <li class="bg-black py-2 px-4 rounded-[50px] mr-4 mt-4">Middleware</li>
         </ul>
         <div class="w-full mb-4">
-          <h2 class="text-heading-lg font-bold pt-3 pb-2">LA Reinigungen</h2>
+          <h2 class="text-heading-lg font-bold pt-3 pb-2">Auto Sirnach</h2>
           <p class="text-gray-500 text-body">
-            Software for Ventures & Private Equity
+            Fahrzeughandel in der Ostschweiz.
           </p>
         </div>
-        <PrimaryButton text="View Case Study"/>
+        <PrimaryButton text="View Page" link="https://autosirnach.ch"/>
       </div>   
     </div>
   </div>

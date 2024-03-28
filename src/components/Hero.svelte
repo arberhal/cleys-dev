@@ -1,36 +1,76 @@
 <script>
-    import PrimaryButton from "./primary-button.svelte";
-    import Shopify from "../lib/images/Shopify.png";
-    import Hostpoint from "../lib/images/Hostpoint.png";
-    import Shore from "../lib/images/shore.png";
+  import PrimaryButton from "./primary-button.svelte";
+  import Shopify from "../lib/images/Shopify.png";
+  import Hostpoint from "../lib/images/Hostpoint.png";
+  import Shore from "../lib/images/shore.png";
 
-    function scheduleTime() {
-        Calendly.initPopupWidget({url: 'https://calendly.com/bookcleys'});
-        return false;
-    }
+  function scheduleTime() {
+    Calendly.initPopupWidget({ url: "https://calendly.com/bookcleys" });
+    return false;
+  }
 </script>
 
-<div class="flex items-center justify-center mx-auto max-w-[1568px] mb-60">
-    <div class="flex flex-col justify-center items-center w-full lg:pt-32 pt-8">
-        <div class="grid grid-cols-2 lg:grid-cols-12 gap-4 lg:gap-6 mx-4 lg:mx-16 relative">
-            <div class="lg:col-span-7 col-span-2">
-                <h2 class="text-display-lg lg:text-[72px] font-bold pt-3 pb-2 cleys">
-                    cleys is a global branding and UX design agency
-                </h2>
-                <p class="text-body pb-2">
-                    Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem
-                    cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.
-                </p>
-                <a href="#" on:click={scheduleTime}>
-                    <PrimaryButton text="Jetzt Beratung anfordern"></PrimaryButton>
-                <p class="text-body pt-16">Trusted by the world's most innovative Teams</p>
-                <div class="flex justify-start items-center space-x-4 pt-8 overflow-hidden">
-                    <img src={Shopify} alt="Shopify Logo" class="lg:h-[40px] h-[25px] opacity-50">
-                    <img src={Hostpoint} alt="Hostpoint Logo" class="lg:h-[35px] h-[20px] opacity-50">
-                    <img src={Shore} alt="Shore Logo" class="lg:h-[35px] h-[20px] opacity-50">
-                </div>
-            </div>
-            <div class="border-black border-2 rounded-xl col-span-5 -mt-16 hidden lg:flex"></div>
+<section class="flex items-center justify-center mb-60 h-[90vh]">
+  <div class="flex flex-col justify-center items-center w-full">
+    <svg
+      aria-hidden="true"
+      class="opacity-5 absolute inset-x-0 -top-28 -z-10 h-[1000px] w-full fill-neutral-50 stroke-neutral-950/5 [mask-image:linear-gradient(to_bottom_left,white_40%,transparent_50%)]"
+      ><rect width="100%" height="100%" fill="url(#:r5:)" stroke-width="0"
+      ></rect><svg></svg><defs
+        ><pattern
+          id="a"
+          patternUnits="userSpaceOnUse"
+          width="69.141"
+          height="40"
+          patternTransform="scale(2) rotate(0)"
+          ><rect
+            x="0"
+            y="0"
+            width="100%"
+            height="100%"
+            fill="hsla(0,0%,100%,1)"
+          /><path
+            d="M69.212 40H46.118L34.57 20 46.118 0h23.094l11.547 20zM57.665 60H34.57L23.023 40 34.57 20h23.095l11.547 20zm0-40H34.57L23.023 0 34.57-20h23.095L69.212 0zM34.57 60H11.476L-.07 40l11.547-20h23.095l11.547 20zm0-40H11.476L-.07 0l11.547-20h23.095L46.118 0zM23.023 40H-.07l-11.547-20L-.07 0h23.094L34.57 20z"
+            stroke-width="1"
+            stroke="hsla(259, 100%, 0%, 1)"
+            fill="none"
+          /></pattern
+        ></defs
+      ><rect
+        width="800%"
+        height="800%"
+        transform="translate(0,0)"
+        fill="url(#a)"
+      /></svg
+    >
+    <div
+      class="flex flex-col mx-4 md:mx-10  lg:mx-16 lg:max-w-[1280px]"
+    >
+      <div class="lg:w-3/5">
+        <div class="text-display-lg text-[#0079C1] font-bold lg:text-[64px]">
+          <h2>Innovative IT-Lösungen, für Ihren Erfolg</h2>
         </div>
+        <div class="text-body mt-2">
+          <p>
+            Wir bieten massgeschneiderte Lösungen, die Ihre Geschäftsprozesse <br
+            /> optimieren und Sie in die Zukunft führen. Erleben Sie den Unterschied
+            mit unseren spezialisierten Services, die auf Ihre Bedürfnisse zugeschnitten
+            sind.
+          </p>
+        </div>
+        <div class="mt-8">
+          <a href="#" on:click={scheduleTime}>
+            <PrimaryButton text="Jetzt Beratung anfordern"></PrimaryButton>
+          </a>
+        </div>
+      </div>
+      <!---
+      <div class="flex justify-between w-full mt-32 space-x-4 overflow-hidden h-[60px]">
+        <img src={Shore} alt="" class="h-full" />
+        <img src={Shopify} alt="" class="h-full" />
+        <img src={Hostpoint} alt="" class="h-full" />
+      </div>
+      -->
     </div>
-</div>
+  </div>
+</section>
