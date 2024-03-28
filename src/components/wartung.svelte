@@ -1,11 +1,14 @@
 <script>
-
   import PrimaryButton from "./primary-button.svelte";
 </script>
 
 <section class="h-[100vh] flex justify-center items-center">
   <div class="flex flex-col justify-center">
-    <p class="text-display-lg font-extrabold">Unsere Webseite wird gerade gewartet</p>
+    <div class="flex justify-center">
+      <p class="text-display-lg font-extrabold text-center">
+        Unsere Webseite wird gerade gewartet
+      </p>
+    </div>
     <!--
     <div class="flex justify-center mt-16">
         <svg id="Ebene_1" data-name="Ebene 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 153.83 138.26" class="h-[80px]">
@@ -29,12 +32,11 @@
     <div class="flex justify-center mt-16">
       <p class="text-body">Du kannst uns immernoch kontaktieren auf:</p>
     </div>
-   
+
     <div class="flex justify-center">
       <PrimaryButton text="info@cleys.ch" link="mailto:info@cleys.ch" />
     </div>
 
-    <div>
-    </div>
+    <div></div>
   </div>
 </section>
