@@ -9,7 +9,7 @@
   class="bg-[#17191E] flex justify-center lg:items-center mt-48"
 >
   <div
-    class="lg:max-w-[1440px] lg:flex lg:justify-between mx-4 flex flex-wrap text-white mt-8 lg:w-full lg:pt-8 lg:mx-16"
+    class="lg:max-w-[1280px] lg:flex lg:justify-between mx-4 flex flex-wrap text-white mt-8 lg:w-full lg:pt-8 lg:mx-16 md:mx-10"
   >
     <div class="hidden lg:flex lg:w-auto">
       <div class="mb-4 ">
@@ -74,34 +74,34 @@
         </ul>
       </div>
     </div>
-    <div class="w-1/2 my-8 lg:w-auto">
+    <div class="w-1/2 mb-8 lg:w-auto">
       <a href="/Lösungen" class="text-heading-md font-semi">Lösungen</a>
       <ul class="text-body mt-2 font-thin lg:text-xs">
-        <li><a href="/Webentwicklung">Webentwicklung</a></li>
-        <li><a href="/e-commerce">E-Commerce</a></li>
-        <li><a href="/e-commerce">SEO</a></li>
-        <li><a href="/branding">Branding</a></li>
+        <li><a href="/dienstleistungen">Webentwicklung</a></li>
+        <li><a href="/dienstleistungen">E-Commerce</a></li>
+        <li><a href="/dienstleistungen">SEO</a></li>
+        <li><a href="/dienstleistungen">Branding</a></li>
         
-        <li><a href="/e-commerce">Modern Workplace</a></li>
-        <li><a href="/e-commerce">Künstliche Intelligenz</a></li>
+        <li><a href="/dienstleistungen">Modern Workplace</a></li>
+        <li><a href="/dienstleistungen">Künstliche Intelligenz</a></li>
       </ul>
     </div>
-    <div class="w-1/2 my-8 lg:w-auto">
+    <div class="w-1/2 mb-8 lg:w-auto">
       <a href="/Lösungen" class="text-heading-md font-semi">Unternehmen</a>
       <ul class="text-body mt-2 font-thin lg:text-xs">
-        <li><a href="/ueber-uns">Über uns</a></li>
+        <li><a href="/ueberuns">Über uns</a></li>
         <li><a href="/blog">Blog</a></li>
         <li><a href="/karriere">Jobs & Karriere</a></li>
       </ul>
     </div>
-    <div class="w-1/2 my-8 lg:hidden">
+    <div class="w-1/2 mb-8 lg:hidden">
       <a href="/Lösungen" class="text-heading-md font-semi">Rechtliches</a>
       <ul class="mt-2 font-thin text-xs">
         <li><a href="/impressum">Impressum</a></li>
         <li><a href="/datenschutz">Datenschutz</a></li>
       </ul>
     </div>
-    <div class="w-1/2 my-8 lg:hidden">
+    <div class="w-1/2 mb-8 lg:hidden">
       <a href="/Kontakt" class="text-heading-md font-semi">Kontaktiere uns!</a>
       <ul class="text-body mt-2 font-thin lg:text-xs">
         <li>Industriestrasse 15</li>
@@ -121,7 +121,7 @@
         </a>
       </div>
     </div>
-    <div class="lg:flex lg:flex-col my-8 lg:w-auto h-[40px] hidden">
+    <div class="lg:flex lg:flex-col mb-8 lg:w-auto h-[40px] hidden">
         <p class="text-heading-md text-bold">Folge Uns!</p>
       <div class="flex mt-2">
         <a href="https://instagram.com/cleys.ch" target="_blank">

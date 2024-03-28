@@ -34,25 +34,28 @@
     let headerBG = 'bg-white';
   
     function toggleMenu() {
-      if (showMenu) {
-        menuAnimationClass = 'slide-out'; 
-        hamburgerClass = "reverse";
-        logoColor = "fill-[#0079C1]";
-        iconColor = "bg-black";
-        setTimeout(() => {
-          showMenu = false; 
-        }, 500); 
-        document.body.style.overflow = '';
-      } else {
-        showMenu = true;
-        menuAnimationClass = 'slide-in';
-        logoColor = "fill-white";
-        iconColor = "bg-white";
-        document.body.style.overflow = 'hidden';
-        hamburgerClass = "animate";
-        headerBG = 'bg-transparent';
-      }
+    if (showMenu) {
+      menuAnimationClass = 'slide-out'; 
+      hamburgerClass = "reverse";
+      logoColor = "fill-[#0079C1]";
+      iconColor = "bg-black";
+      setTimeout(() => {
+        showMenu = false;
+      }, 500); // This is when the menu is actually set to be not shown
+      setTimeout(() => {
+        headerBG = 'bg-white'; // Change header background to white after a delay
+      },350); // Change background color after 1000ms
+      document.body.style.overflow = '';
+    } else {
+      showMenu = true;
+      menuAnimationClass = 'slide-in';
+      logoColor = "fill-white";
+      iconColor = "bg-white";
+      document.body.style.overflow = 'hidden';
+      hamburgerClass = "animate";
+      headerBG = 'bg-transparent'; // Keep header transparent when menu is open
     }
+  }
    
   
   </script>
@@ -251,7 +254,7 @@
   </style>
   
   <header class="header {headerClass} {headerBG} lg:flex lg:justify-center fixed ">
-      <div class="flex justify-between lg:w-[1440px] mx-4 py-8 lg:mx-16">
+      <div class="flex justify-between lg:w-[1280px] mx-4 py-8 lg:mx-16 md:mx-10">
           <div class="h-[40px]"> 
         <a href="/" class="items-center"> 
             <svg id="Ebene_1" data-name="Ebene 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 484.37 138.26" class="{logoColor} fill- h-[40px]">

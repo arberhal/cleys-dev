@@ -31,20 +31,18 @@
   );
 </script>
 
-<div class="mx-auto max-w-[1568px] mb-48">
+<div class="mx-auto max-w-[1408px] mb-48">
   <div
-    class="grid grid-cols-2 lg:grid-cols-12 gap-4 lg:gap-6 lg:mt-64 mt-32 mx-4 lg:mx-16"
+    class="grid grid-cols-2 lg:grid-cols-12 gap-4 lg:gap-6 lg:mt-64 mt-32 mx-4 md:mx-10 lg:mx-16"
   >
     <div class="lg:col-span-6 col-span-2">
       <p class="text-gray-500 text-body">
-        Software for Ventures & Private Equity
+        cleys & die neusten Technologien
       </p>
       <h2 class="text-display-md font-bold pt-3 pb-2 cleys">
-        Wir beherrschen die neusten Technologien
-      </h2>
+        Zukunftsorientiert     </h2>
       <p class="text-body pb-2">
-        Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem
-        cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.
+        Wir setzen auf Spitzentechnologie, um Innovationen voranzutreiben und nachhaltigen Erfolg zu sichern.
       </p>
       <PrimaryButton text="Über uns"></PrimaryButton>
     </div>
