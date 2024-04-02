@@ -1,8 +1,9 @@
 <script>
-    import { onMount } from 'svelte';
-    import linkedin from '../lib/images/linkedin.png';
-    import instagram from '../lib/images/instagram.png';
-  
+      import { onMount } from 'svelte';
+  import { page } from '$app/stores'; // Import the $page store
+  import linkedin from '../lib/images/linkedin.png';
+  import instagram from '../lib/images/instagram.png';
+
     let lastScrollTop = 0;
     let headerClass = 'header-visible';
 
@@ -26,38 +27,74 @@
       }
     });
   
+
+
     let showMenu = false;
     let menuAnimationClass = ''; 
     let logoColor = "fill-[#0079C1]"
     let hamburgerClass = "";
     let iconColor = "bg-black";
     let headerBG = 'bg-white';
+    let textC = "text-black";
+
   
     function toggleMenu() {
-    if (showMenu) {
-      menuAnimationClass = 'slide-out'; 
-      hamburgerClass = "reverse";
-      logoColor = "fill-[#0079C1]";
-      iconColor = "bg-black";
-      setTimeout(() => {
-        showMenu = false;
-      }, 500); // This is when the menu is actually set to be not shown
-      setTimeout(() => {
-        headerBG = 'bg-white'; // Change header background to white after a delay
-      },350); // Change background color after 1000ms
-      document.body.style.overflow = '';
+  if (showMenu) {
+    menuAnimationClass = 'slide-out'; 
+    hamburgerClass = "reverse";
+    logoColor = $page.url.pathname === '/blog' ? "fill-white" : "fill-[#0079C1]";
+    iconColor = $page.url.pathname === '/blog' ? "bg-white" : "bg-black";
+
+    setTimeout(() => {
+      showMenu = false;
+      // Apply the background color change after the menu is hidden, with a delay, and only if not on the blog page
+      if ($page.url.pathname !== '/blog') {
+        headerBG = 'bg-white';
+      }
+    }, 500); // This is when the menu is actually set to be not shown
+    
+    document.body.style.overflow = '';
+  } else {
+    showMenu = true;
+    menuAnimationClass = 'slide-in';
+    logoColor = "fill-white";
+    iconColor = "bg-white";
+    document.body.style.overflow = 'hidden';
+    hamburgerClass = "animate";
+    headerBG = $page.url.pathname === '/blog' ? 'cleys-black' : 'bg-white';
+    headerBG = $page.url.pathname === '/dienstleistungen' ? 'cleys-black' : 'bg-white';
+    headerBG = $page.url.pathname === '/blog' ? 'cleys-black' : 'bg-white';
+  }
+}
+
+   
+  $: {
+    if ($page.url.pathname === '/blog' || $page.url.pathname === '/dienstleistungen' || $page.url.pathname === '/ueberuns') {
+      headerBG = 'cleys-black ';
+      logoColor = 'fill-white';
+      iconColor = 'bg-white'; // Assuming you want to change icon color too
     } else {
-      showMenu = true;
-      menuAnimationClass = 'slide-in';
-      logoColor = "fill-white";
-      iconColor = "bg-white";
-      document.body.style.overflow = 'hidden';
-      hamburgerClass = "animate";
-      headerBG = 'bg-transparent'; // Keep header transparent when menu is open
+      headerBG = 'bg-white';
+      logoColor = "fill-[#0079C1]";
+      iconColor = 'bg-black';
     }
   }
-   
-  
+
+
+
+  $: {
+    if ($page.url.pathname === '/dienstleistungen' || $page.url.pathname === '/ueberuns' || $page.url.pathname === '/blog') {
+      headerBG = 'cleys-black ';
+      logoColor = 'fill-white';
+      iconColor = 'bg-white';
+      textC = "text-white";
+    } else {
+      headerBG = 'bg-white';
+      logoColor = "fill-[#0079C1]";
+      iconColor = 'bg-black';
+      textC = "text-black";
+    }
+  }
   </script>
 
   <style>
@@ -156,7 +193,6 @@
         transform: scaleX(1);
         transform-origin: bottom left;
     }
-
 
 
 
@@ -277,13 +313,13 @@
               </svg>
         </a>
           </div>
-          <nav class="lg:flex text-black">
+          <nav class="lg:flex text-black {textC}">
             <div class="lg:flex hidden">
           <ul class="lg:flex max-h-[40px] items-center">
             <li class="text-[20px] lg:ml-12 animate-border"><a href="/projects">Projekte</a></li>
             <li class="text-[20px] lg:ml-12 animate-border"><a href="/dienstleistungen">Services</a></li>
             <li class="text-[20px] lg:ml-12 animate-border"><a href="/ueberuns">Über uns</a></li>
-            <li class="text-[20px] lg:ml-12 animate-border"><a href="/projects">Blog</a></li>
+            <li class="text-[20px] lg:ml-12 animate-border"><a href="/blog">Blog</a></li>
             <li class="text-[20px] lg:ml-12 animate-border"><a href="/kontakt">Kontakt</a></li>
           </ul>
             </div>
@@ -309,7 +345,9 @@
         <li class="mb-2 text-[30px] " on:click={toggleMenu}><a href="/ueberuns">Über uns</a></li>
         <li class="mb-2 text-[30px]" on:click={toggleMenu}><a href="/projects">Projekte</a></li>
         <li class="mb-2 text-[30px]" on:click={toggleMenu}><a href="/dienstleistungen">Services</a></li>
+        <li class="mb-2 text-[30px]" on:click={toggleMenu}><a href="/blog">Blog</a></li>
         <li class="mb-2 text-[30px]" on:click={toggleMenu}><a href="/contact">Kontakt</a></li>
+    
       </ul>
     </div>
     <div class="mx-4  mb-[40px] animated-item">
