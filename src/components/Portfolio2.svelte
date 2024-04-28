@@ -1,8 +1,8 @@
 <script>
   import PrimaryButton from "./primary-button.svelte";
   import LA from "$lib/images/LA-Reinigung.webp";
-  import AS from "$lib/images/Autosirnach.webp";
-  import LV from "$lib/images/LVhairextension.webp";
+  import AS from "$lib/images/autosirnach.webp";
+  import LV from "$lib/images/lvhairextension.webp";
 </script>
 
 <section class="flex justify-center mt-16 pt-16 pb-16 bg-[#F9FAFF]">
