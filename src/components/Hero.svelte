@@ -4,13 +4,10 @@
   import Hostpoint from "../lib/images/Hostpoint.png";
   import Shore from "../lib/images/shore.png";
 
-  function scheduleTime() {
-    Calendly.initPopupWidget({ url: "https://calendly.com/bookcleys" });
-    return false;
-  }
+ 
 </script>
 
-<section class="flex items-center justify-center mb-60 h-[90vh]">
+<section class="flex lg:items-center justify-center items-start pt-20 lg:pt-0 mb-60 lg:h-[90vh] h-[30vh]">
   <div class="flex flex-col justify-center items-center w-full">
     <svg
       aria-hidden="true"
@@ -59,9 +56,9 @@
           </p>
         </div>
         <div class="mt-8">
-          <a href="#" on:click={scheduleTime}>
-            <PrimaryButton text="Jetzt Beratung anfordern"></PrimaryButton>
-          </a>
+
+            <PrimaryButton text="Jetzt Beratung anfordern" link="https://calendly.com/bookcleys/beratung-vor-ort" target="_blank"></PrimaryButton>
+          
         </div>
       </div>
       <!---

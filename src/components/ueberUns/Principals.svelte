@@ -8,27 +8,22 @@
     <div class="flex lg:space-x-32 lg:flex-row flex-col mt-8">
       <div class="lg:w-1/2 flex flex-col">
         <div class="">
-          <h3 class="font-bold text-heading-md">Patterns are everything</h3>
+          <h3 class="font-bold text-heading-md">Shoot for the stars</h3>
           <p class="mt-4">
-            Consumers think, behave and make choices using consistent
-            unconscious patterns. Our unique and comprehensive database of these
-            patterns enables us to develop an interface at speed.
+            "Shoot for the Stars" verkörpert unser Streben nach Exzellenz in
+            allem, was wir tun. Wir setzen hohe Ziele, um innovative und
+            herausragende Lösungen zu schaffen, die die Erwartungen übertreffen.
           </p>
         </div>
-        <div class="mt-8">
-          <h3 class="font-bold text-heading-md">We offer solutions</h3>
-          <p class="mt-4">
-            Consumers think, behave and make choices using consistent
-            unconscious patterns. Our unique and comprehensive database of these
-            patterns enables us to develop an interface at speed.
-          </p>
-        </div>
+
         <div class="mt-8">
           <h3 class="font-bold text-heading-md">With optimality in mind</h3>
           <p class="mt-4">
-            Consumers think, behave and make choices using consistent
-            unconscious patterns. Our unique and comprehensive database of these
-            patterns enables us to develop an interface at speed.
+            "With Optimality in Mind" unterstreicht unser Bestreben, in jeder
+            Projektphase höchste Effizienz und Effektivität zu gewährleisten.
+            Wir streben stets danach, die optimale Balance zwischen Kosten, Zeit
+            und Qualität zu finden, um die bestmöglichen Ergebnisse für unsere
+            Kunden zu erzielen.
           </p>
         </div>
       </div>
@@ -36,29 +31,23 @@
         <div class="mt-8 lg:mt-0">
           <h3 class="font-bold text-heading-md">We don’t reinvent the wheel</h3>
           <p class="mt-4">
-            Consumers think, behave and make choices using consistent
-            unconscious patterns. Our unique and comprehensive database of these
-            patterns enables us to develop an interface at speed.
+            "We don’t reinvent the wheel" zeigt, dass wir auf bewährte
+            Strategien setzen, um schnelle und effiziente Lösungen zu liefern,
+            ohne unnötig Ressourcen zu verbrauchen. Wir optimieren und
+            verbessern, was bereits funktioniert, um bestmögliche Ergebnisse zu
+            erzielen.
           </p>
         </div>
         <div class="mt-8">
           <h3 class="font-bold text-heading-md">
-            We always look beyond the design
+            Think outside the box, but act inside the box
           </h3>
           <p class="mt-4">
-            Consumers think, behave and make choices using consistent
-            unconscious patterns. Our unique and comprehensive database of these
-            patterns enables us to develop an interface at speed.
-          </p>
-        </div>
-        <div class="mt-8">
-          <h3 class="font-bold text-heading-md">
-            ...and YES, we ensure the basics
-          </h3>
-          <p class="mt-4">
-            Consumers think, behave and make choices using consistent
-            unconscious patterns. Our unique and comprehensive database of these
-            patterns enables us to develop an interface at speed.
+            "Think outside the box, but act inside the box" bedeutet für uns,
+            kreativ und innovativ in der Ideenfindung zu sein, während wir bei
+            der Umsetzung auf bewährte und praktikable Lösungen setzen. Dieses
+            Prinzip erlaubt es uns, frische Perspektiven zu entwickeln, ohne die
+            Realisierbarkeit und Effizienz zu vernachlässigen.
           </p>
         </div>
       </div>

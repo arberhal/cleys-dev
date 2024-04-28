@@ -6,7 +6,7 @@
     let direction = 1; // 1 for forward, -1 for backward
     const slides = [
       {
-        testimonial: "“Our experience with Andrew and the team has been nothing less than perfect. We hired them to design our brand from scratch and from the moment we set foot in their offices for a brand workshop, we've been incredibly impressed.”",
+        testimonial: "“Meine Erfahrung mit cleys war aussergewöhnlich. Wir beauftragten sie, unsere Marke vollständig neu zu gestalten und eine robuste Infrastruktur zu implementieren. Vom ersten Augenblick, als ich unsere neue Webseite sah, war ich überaus beeindruckt.”",
         name: "Liridon Ahmetaj",
         title: "Geschäftsinhaber",
         image: lar
@@ -25,7 +25,7 @@
     }
   </script>
   
-  <section class="flex justify-center mt-16 text-white cleys-black">
+  <section class="flex justify-center text-white cleys-black">
     <div class="flex flex-col mx-4 md:mx-10 lg:mx-16 lg:max-w-[1280px] w-full ">
       <div class="lg:mt-24 mt-16"> 
         <p class="text-body">Unsere Ergebnisse</p>

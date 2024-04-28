@@ -1,5 +1,8 @@
 <script>
-  import PrimaryButton from "./primary-button.svelte";
+function scheduleTime() {
+    Calendly.initPopupWidget({ url: "https://calendly.com/bookcleys" });
+    return false;
+  }
 </script>
 
 <style>
@@ -63,6 +66,8 @@
     <p class="cleys text-heading-lg">Let's get in touch.</p>
     <p class="text-white text-display-md mt-8">Verwirkliche deine Idee, wir freuen uns dich bei uns zu begrüssen</p>
     <a href="/kontakt">
+      <div class="flex lg:space-x-8">
+        <div class="lg:block hidden">
       <button class="button mt-8">
         <span class="text-container text-body"><p class="text-white">Kontakt aufnehmen</p></span>
         <span class="icon-container">
@@ -71,6 +76,18 @@
             </svg>
         </span>
       </button>
+    </div>
+    <a href="https://calendly.com/bookcleys/beratung-vor-ort" target="_blank">
+      <button class="button mt-8">
+        <span class="text-container text-body"><p class="text-white">Kostenlose Erstberatung</p></span>
+        <span class="icon-container">
+            <svg class="h-6 w-6" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M7 17L17 7M17 7H7M17 7V17" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+        </span>
+      </button>
+    </a>>
+    </div>
     </a>
   </div>  
   </div>
