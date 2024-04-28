@@ -1,6 +1,6 @@
 <script lang="ts">
     import { fly } from 'svelte/transition';
-    import lar from "$lib/images/lar.svg";
+    import lar from "$lib/images/lar1.svg";
   
     let currentIndex = 0;
     let direction = 1; // 1 for forward, -1 for backward
