@@ -2,9 +2,10 @@
     export let text = "Button Text";
     export let link = "";
     export let size = "";
+    export let target = "";
 </script>
 
-<a href="{link}">
+<a href="{link}" target="{target}">
   <button class="button">
     <span class="text-container text-body{size}">{text}</span>
     <span class="icon-container">

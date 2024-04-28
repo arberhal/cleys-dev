@@ -26,7 +26,7 @@
     };
 </script>
 
-<div class="mx-auto max-w-[1568px]">
+<div class="mx-auto max-w-[1408px]">
     <div class="grid grid-cols-2 lg:grid-cols-12 gap-4 lg:gap-6 mx-4 lg:mx-16">
       <div class="lg:col-span-7 col-span-2">
         <div style="opacity: 1; transform: none;">

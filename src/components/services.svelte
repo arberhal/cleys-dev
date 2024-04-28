@@ -1,4 +1,26 @@
 <script lang="ts">
+     import { onMount, onDestroy } from 'svelte';
+  import lottie from 'lottie-web';
+
+  let container; // This will reference our animation container
+
+  onMount(() => {
+    const animation = lottie.loadAnimation({
+      container: container, // the dom element that will contain the animation
+      renderer: 'svg',
+      loop: true,
+      autoplay: true,
+      path: 'https://assets3.lottiefiles.com/packages/lf20_YXD37q.json' // the path to the animation json
+    });
+
+    return () => {
+      // Properly clean up the animation on component destroy
+      animation.destroy();
+    };
+  });
+
+
+  
     let selectedContent = 'Webentwicklung';
     let contents = ['Webentwicklung','E-Commerce', "SEO", 'Branding',  "Modern Workplace","Künstliche Intelligenz"];
     let index = 0;
@@ -68,7 +90,14 @@
         <div class="ml-3">
           <p>{selectedContent}</p>
           {#if selectedContent === 'Webentwicklung'}
-            <div>Extra content for Webentwicklung</div>
+            <div><LottiePlayer
+              src="https://assets3.lottiefiles.com/packages/lf20_YXD37q.json"
+              background="transparent"
+              speed="1"
+              style="width: 300px; height: 300px;"
+              loop
+              autoplay
+            /></div>
           {/if}
           {#if selectedContent === 'Branding'}
             <div>Extra content for Branding</div>
