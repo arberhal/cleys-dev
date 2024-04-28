@@ -1,7 +1,7 @@
 <script>
   
   import LA from "$lib/images/LA-Reinigung.webp";
-  import AS from "$lib/images/Autosirnach.webp";
+  import AS from "$lib/images/autosirnach.webp";
   import LV from "$lib/images/LVhairextension.webp";
   import { slide, fade } from "svelte/transition";
   let projects = [
