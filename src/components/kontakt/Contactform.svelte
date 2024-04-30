@@ -185,7 +185,7 @@
             <h2 class="text-body font-bold">Buchen Sie ein Gespräch</h2>
             <p class="pt-2 text-body-sm">Unser Team steht Ihnen für alle Fragen zur Verfügung.</p>
             <div class="pt-4">
-            <PrimaryButton size="-sm" text="Jetzt Buchen"/>
+            <PrimaryButton size="-sm" text="Jetzt Buchen" link="https://calendly.com/bookcleys/beratung-vor-ort"/>
             </div>
         </div>
         </div>

@@ -1,6 +1,9 @@
 <script>
   import phising from "$lib/images/blog/phising.webp";
 </script>
+<svelte:head>
+  <meta name="robots" content="noindex, nofollow">
+</svelte:head>
 
 <section class="flex justify-center">
   <div class="mx-4 flex flex-col lg:mx-16 md:mx-10 w-full lg:max-w-[1280px]">

@@ -25,14 +25,14 @@
         </ul>
         <ul class="space-y-2 lg:flex-col lg:mt-0 mt-8">
           <li class="font-bold">Services</li>
-          <a href="/dienstleistungen"><li>Webenwticklung</li></a>
-          <a href="/dienstleistungen"><li>Plattformentwicklung</li></a>
-          <a href="/dienstleistungen"><li>E-Commerce</li></a>
-          <a href="/dienstleistungen"><li>IT-Consulting</li></a>
-          <a href="/dienstleistungen"><li>Microsoft 365</li></a>
-          <a href="/dienstleistungen"><li>Künstliche Intelligenz</li></a>
-          <a href="/dienstleistungen"><li>Marketing & SEO</li></a>
-          <a href="/dienstleistungen"><li>Branding</li></a>
+          <a href="/services"><li>Webenwticklung</li></a>
+          <a href="/services"><li>Plattformentwicklung</li></a>
+          <a href="/services"><li>E-Commerce</li></a>
+          <a href="/services"><li>IT-Consulting</li></a>
+          <a href="/services"><li>Microsoft 365</li></a>
+          <a href="/services"><li>Künstliche Intelligenz</li></a>
+          <a href="/services"><li>Marketing & SEO</li></a>
+          <a href="/services"><li>Branding</li></a>
         </ul>
         <ul class="space-y-2 lg:mt-0 mt-8">
           <li class="font-bold">Unternehmen</li>
@@ -40,7 +40,7 @@
           <!--
           <li class=""><a href="/blog">Blog</a></li>
           -->
-          <li class=""><a href="/datenschutz">Über uns</a></li>
+          <li class=""><a href="/ueberuns">Über uns</a></li>
         </ul>
         <ul class="space-y-2 lg:mt-0 mt-8 lg:hidden">
   
