@@ -228,9 +228,9 @@
 
 {#if showMenu}
   <div
-    class="menu bg-[#131313] text-white pt-[104px] fixed w-[100vw] h-[100vh] {menuAnimationClass} overflow-y-scroll flex flex-col justify-between"
+    class="menu bg-[#131313] text-white fixed w-[100vw] h-[100vh] {menuAnimationClass} overflow-y-scroll flex flex-col justify-between"
   >
-    <div class="mx-4 pt-16 animated-item">
+    <div class="mx-4 pt-32 animated-item">
       <ul>
         <li class="mb-2 text-[30px]" on:click={toggleMenu}>
           <a href="/ueberuns">Über uns</a>
