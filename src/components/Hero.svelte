@@ -7,7 +7,7 @@
  
 </script>
 
-<section class="flex lg:items-center justify-center items-start pt-20 lg:pt-0 mb-60 lg:h-[90vh] h-[30vh]">
+<section class="flex lg:items-center justify-center items-start pt-20 lg:pt-0 mb-60 lg:h-[90vh] h-[50vh]">
   <div class="flex flex-col justify-center items-center w-full">
     <svg
       aria-hidden="true"
