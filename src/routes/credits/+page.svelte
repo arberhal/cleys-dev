@@ -1,3 +1,6 @@
+<svelte:head>
+  <meta name="robots" content="noindex, nofollow">
+</svelte:head>
 
 <section class="flex justify-center">
     <div

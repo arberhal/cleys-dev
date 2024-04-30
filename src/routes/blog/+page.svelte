@@ -1,3 +1,8 @@
+<svelte:head>
+  <meta name="robots" content="noindex, nofollow">
+</svelte:head>
+
+
 <script>
   import PrimaryButton from "../../components/primary-button.svelte";
   import { slide } from "svelte/transition";
