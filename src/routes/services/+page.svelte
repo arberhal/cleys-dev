@@ -3,7 +3,10 @@
   import Werbig from "../../components/services/Werbig.svelte";
   import { slide } from "svelte/transition";
 </script>
-
+<svelte:head>
+    <meta name="description" content="Erkunden Sie unser breites Angebot an IT-Dienstleistungen, einschließlich Webentwicklung, E-Commerce-Plattformen, IT-Consulting, und mehr. Cleys nutzt modernste Technologien, um maßgeschneiderte Lösungen zu schaffen, die Ihr Unternehmen voranbringen und die Kundenzufriedenheit sicherstellen.">
+  <title>IT-Services für digitale Exzellenz</title>
+</svelte:head>
 <section
   class="flex justify-center cleys-black"
   in:slide={{ delay: 0, duration: 500 }}

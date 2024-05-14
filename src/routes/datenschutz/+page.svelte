@@ -1,9 +1,10 @@
 <svelte:head>
   <meta name="robots" content="noindex, nofollow">
+  <title>Datenschutz</title>
 </svelte:head>
 
 
-<div class="mx-auto max-w-[1568px]">
+<div class="mx-auto max-w-[1408px]">
     <div class="lg:mt-16 mt-16 mx-4 lg:mx-16">
         <h2 class="text-display-md font-bold">Datenschutzerklärung</h2>
         <p class="text-body font-bold pt-8">Zuletzt aktualisiert am: 04.03.2024</p>

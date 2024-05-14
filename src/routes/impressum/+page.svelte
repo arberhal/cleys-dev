@@ -1,9 +1,10 @@
 <svelte:head>
   <meta name="robots" content="noindex, nofollow">
+  <title>Impressum</title>
 </svelte:head>
 
 
-<div class="mx-auto max-w-[1568px]">
+<div class="mx-auto max-w-[1408px]">
     <div class="lg:mt-16 mt-16 mx-4 lg:mx-16">
     <h2 class="text-display-md font-bold">Impressum</h2>
     <p class="text-body font-bold pt-8">Verantwortliche Instanz</p>

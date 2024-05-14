@@ -7,7 +7,10 @@
 
     import { slide } from 'svelte/transition';
 </script>
-
+<svelte:head>
+    <meta name="description" content="Lernen Sie Cleys kennen, ein junges und dynamisches Team aus St. Gallen, das sich durch Expertise und Leidenschaft für Technologie auszeichnet. Wir entwickeln massgeschneiderte IT-Lösungen, die Ihren digitalen Erfolg vorantreiben und Innovationen fördern.">
+  <title>Über cleys</title>
+</svelte:head>
 <section class="flex justify-center cleys-black" in:slide={{ delay: 0, duration: 500 }}>
     <div class="flex flex-col mx-4 md:mx-10 lg:mx-16 lg:max-w-[1280px] w-full my-24 text-white">
       <div class="lg:w-2/3 md:w-2/3">

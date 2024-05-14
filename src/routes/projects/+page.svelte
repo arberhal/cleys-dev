@@ -52,6 +52,11 @@
 
 </script>
 
+<svelte:head>
+    <meta name="description" content="Entdecken Sie unsere umfangreiche Palette an Projekten, von Webseiten über Plattformen bis hin zum Aufbau neuer Infrastrukturen. Cleys verwandelt Ihre Vision in Realität mit branchenführender Expertise.">
+  <title>IT-Lösungen für jede Branche</title>
+</svelte:head>
+
 <section class="flex justify-center mb-32" in:slide={{ delay: 0, duration: 1000 }}>
   <div
     class="flex flex-col mx-4 md:mx-10 lg:mx-16 lg:max-w-[1280px] w-full lg:my-24 pt-20"
@@ -88,12 +93,7 @@
       >
         Business
       </button>
-      <button
-        on:click={() => filterProjects("other")}
-        class="button {selectedCategory === 'other' ? 'button-selected' : ''}"
-      >
-        Other
-      </button>
+    
     </div>
 
  <!-- Dropdown menu zum filtern -->
