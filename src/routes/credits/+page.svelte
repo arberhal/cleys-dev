@@ -1,5 +1,6 @@
 <svelte:head>
   <meta name="robots" content="noindex, nofollow">
+  <title>Credits</title>
 </svelte:head>
 
 <section class="flex justify-center">

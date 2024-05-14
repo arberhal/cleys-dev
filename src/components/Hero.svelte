@@ -7,7 +7,7 @@
  
 </script>
 
-<section class="flex lg:items-center justify-center items-start pt-20 lg:pt-0 mb-60 lg:h-[90vh] h-[50vh]">
+<section class="flex lg:items-center justify-center items-start pt-20 lg:pt-0 mb-60 lg:h-[90vh] h-[30vh]">
   <div class="flex flex-col justify-center items-center w-full">
     <svg
       aria-hidden="true"
@@ -45,7 +45,7 @@
     >
       <div class="lg:w-3/5">
         <div class="text-display-lg text-[#0079C1] font-bold lg:text-[64px]">
-          <h2>Innovative IT-Lösungen, für Ihren Erfolg</h2>
+          <h1>Innovative IT-Lösungen, für Ihren Erfolg</h1>
         </div>
         <div class="text-body mt-2">
           <p>

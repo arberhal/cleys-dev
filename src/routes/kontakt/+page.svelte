@@ -2,6 +2,10 @@
   import Contactform from "../../components/kontakt/Contactform.svelte";
   import { slide } from 'svelte/transition';
 </script>
+<svelte:head>
+    <meta name="description" content="Nehmen Sie Kontakt mit Cleys auf, um maßgeschneiderte IT-Lösungen zu besprechen, die Ihre digitalen Herausforderungen meistern. Unser Team ist bereit, Sie zu unterstützen und Ihre Geschäftsprozesse zu optimieren.">
+  <title>Kontakt</title>
+</svelte:head>
 <div class="relative isolate flex w-full flex-col pt-9"
 style="transform: none; transform-origin: 50% 50% 0px;" >
 <svg

@@ -159,7 +159,6 @@
                     >
                   </div>
                 </div>
-                <div class="g-recaptcha" data-sitekey="6Lc1kJUpAAAAAH6ifBw5YaBU1Uho3SQCjOWH3MnZ"></div>
                 <div class="pt-8">
                 <FormButton text="Nachricht senden" />
                  </div>
