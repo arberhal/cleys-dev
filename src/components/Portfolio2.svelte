@@ -22,7 +22,7 @@
         <div class="">
           <a href="https://autosirnach.ch/">
             <div class="zoom-container rounded-[10px]">
-          <img src="{AS}" alt="" class=" zoom  " />
+          <img src="{AS}" alt="Autosirnach-Webseite" class=" zoom  " />
         </div>
           <p class="font-bold mt-4">Autosirnach</p>
           <p class="text-body-sm">Autohändler in Sirnach</p>
@@ -31,7 +31,7 @@
         <div class="mt-12">
           <a href="https://www.lvhairextension.com/">
             <div class="rounded-[10px] zoom-container">
-          <img src="{LV}" alt="" class="zoom  " />
+          <img src="{LV}" alt="LV-Hairextension-Webseite" class="zoom  " />
         </div>
           <p class="font-bold mt-4">LVHairextension</p>
           <p class="text-body-sm">E-Commerce Hairextension</p>
@@ -42,7 +42,7 @@
         <div class="mt-8 lg:mt-0 ">
           <a href="https://la-reinigung.ch/">
         <div class="rounded-[10px] zoom-container">
-          <img src="{LA}" alt="" class="zoom " />
+          <img src="{LA}" alt="LA-Reinigung-Webseite" class="zoom " />
         </div>
           <p class="font-bold mt-4">LA-Reinigung</p>
           <p class="text-body-sm">Reinigunservice & Facility Management</p>

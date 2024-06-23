@@ -7,7 +7,7 @@ import { slide } from 'svelte/transition';
 
 </script>
 <svelte:head>
-    <meta name="description" content="Entdecken Sie massgeschneiderte IT-Lösungen von Cleys, die Ihre Geschäftsprozesse optimieren und Ihre digitale Transformation vorantreiben. Jetzt kostenlose Beratung anfordern!">
+    <meta name="description" content="Entdecken Sie massgeschneiderte IT-Lösungen von cleys, die Ihre Geschäftsprozesse optimieren und Ihre digitale Transformation vorantreiben.">
   <title>cleys - Driving Innovation.</title>
 </svelte:head>
 

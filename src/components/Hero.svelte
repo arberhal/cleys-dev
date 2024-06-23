@@ -49,10 +49,10 @@
         </div>
         <div class="text-body mt-2">
           <p>
-            Wir bieten massgeschneiderte Lösungen, die Ihre Geschäftsprozesse <br
-            /> optimieren und Sie in die Zukunft führen. Erleben Sie den Unterschied
-            mit unseren spezialisierten Services, die auf Ihre Bedürfnisse zugeschnitten
-            sind.
+            Wir bieten innovative IT-Lösungen, die Ihre Geschäftsprozesse 
+            optimieren und Sie in die Zukunft führen. Erleben Sie den Unterschied
+            mit unseren spezialisierten Services, die auf Ihre Bedürfnisse 
+            zugeschnitten sind und Ihren Erfolg sichern.
           </p>
         </div>
         <div class="mt-8">
@@ -61,13 +61,6 @@
           
         </div>
       </div>
-      <!---
-      <div class="flex justify-between w-full mt-32 space-x-4 overflow-hidden h-[60px]">
-        <img src={Shore} alt="" class="h-full" />
-        <img src={Shopify} alt="" class="h-full" />
-        <img src={Hostpoint} alt="" class="h-full" />
-      </div>
-      -->
     </div>
   </div>
 </section>

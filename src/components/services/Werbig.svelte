@@ -19,7 +19,7 @@
             Zielgruppen gut ankommen.
           </p>
           <div class="flex justify-center items-center">
-            <img src={tilted} alt="" class="m" />
+            <img src={tilted} alt="tilted" class="m" />
           </div>
         </div>
         <div></div>
@@ -57,7 +57,7 @@
           </p>
         </div>
         <div class="flex justify-center items-center pt-16">
-          <img src={bubbles} alt="" class="" />
+          <img src={bubbles} alt="bubbles" class="" />
         </div>
       </div>
     </div>

@@ -39,7 +39,7 @@
                 {slide.testimonial}
               </div>
               <div class="mt-16 pb-24">
-                <img src="{slide.image}" alt="">
+                <img src="{slide.image}" alt="Bild-Slider">
                 <p class="mt-6 text-[16px] font-bold">{slide.name}</p>
                 <p class="mt-1 text-[16px]">{slide.title}</p>
               </div>

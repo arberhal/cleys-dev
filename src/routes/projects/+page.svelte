@@ -107,7 +107,7 @@
             <div class={index === 0 ? "pt-32" : "mt-12"}>
               <a href={project.url}>
                 <div class="zoom-container rounded-[10px]"> 
-                <img src={project.imageName} alt="" class="zoom" />
+                <img src={project.imageName} alt="projekt-bilder" class="zoom" />
               </div>
                 <p class="font-bold mt-4">{project.name}</p>
                 <p class="text-body-sm">{project.description}</p>

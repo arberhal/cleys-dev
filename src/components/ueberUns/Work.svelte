@@ -19,16 +19,16 @@
     </div>
     <div class="lg:w-1/2 flex flex-col justify-end">
       <div class="lg:p-[40px] py-[40px] mt-8 bg-black p-8">
-        <img src={frame1} alt="" />
+        <img src={frame1} alt="frame1" />
         <p class="text-body mt-12">Wir entwerfen und entwickeln innovative digitale Produkte.</p>
       </div>
       <div class="lg:p-[40px] py-[40px] mt-8 bg-black p-8">
-        <img src={frame2} alt="" />
+        <img src={frame2} alt="frame2" />
         <p class="text-body mt-12">
           Wir halten uns an UX- und UI-Regeln, die ein fesselndes Design gewährleisten.</p>
       </div>
       <div class="lg:p-[40px] py-[40px] mt-8 bg-black p-8">
-        <img src={frame3} alt="" />
+        <img src={frame3} alt="frame3" />
         <p class="text-body mt-12">Wir helfen Ihnen, sich von der Masse abzuheben.</p>
       </div>
     </div>
