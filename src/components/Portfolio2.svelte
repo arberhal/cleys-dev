@@ -13,7 +13,7 @@
       </h2>
       <p class="mt-3 mb-8 lg:w-1/2 text-body-sm">
         Wir arbeiten mit Start-ups und Unternehmen zusammen, um ihre digitalen
-        Bedürfnisse zu erfüllen und zu verbessern.
+        Bedürfnisse zu erfüllen und zu verbessern. Überzeugen Sie sich selbst von unseren Projekten.
       </p>
       <PrimaryButton text="Alle Ansehen" link="/projects" />
     </div>

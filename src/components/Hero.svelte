@@ -45,14 +45,14 @@
     >
       <div class="lg:w-3/5">
         <div class="text-display-lg text-[#0079C1] font-bold lg:text-[64px]">
-          <h1>Innovative IT-Lösungen, für Ihren Erfolg</h1>
+          <h1>Innovative IT-Lösungen, für deinen Erfolg</h1>
         </div>
         <div class="text-body mt-2">
           <p>
             Wir bieten innovative IT-Lösungen, die Ihre Geschäftsprozesse 
-            optimieren und Sie in die Zukunft führen. Erleben Sie den Unterschied
-            mit unseren spezialisierten Services, die auf Ihre Bedürfnisse 
-            zugeschnitten sind und Ihren Erfolg sichern.
+            optimieren und Sie in die Zukunft führen. Erlebe den Unterschied
+            mit unseren spezialisierten Services, die auf deine Bedürfnisse 
+            zugeschnitten sind und deinen Erfolg sichern. <br> Driving Innovation ist unsere Lösung für dich.
           </p>
         </div>
         <div class="mt-8">

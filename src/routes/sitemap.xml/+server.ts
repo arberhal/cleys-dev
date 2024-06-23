@@ -4,11 +4,10 @@ export async function GET(): Promise<Response> {
 
     const pages = [
         { url: '/', lastmod: '2024-05-15', changefreq: 'weekly', priority: 1.0 },
-        { url: '/projects', lastmod: '2024-05-15', changefreq: 'weekly', priority: 0.5 },
-        { url: '/blog', lastmod: '2024-05-15', changefreq: 'weekly', priority: 0.5 },
+        { url: '/projects', lastmod: '2024-05-15', changefreq: 'weekly', priority: 0.9 },
         { url: '/services', lastmod: '2024-05-15', changefreq: 'weekly', priority: 0.9 },
         { url: '/contact', lastmod: '2024-05-15', changefreq: 'weekly', priority: 0.5 },
-        { url: '/ueberuns', lastmod: '2024-05-15', changefreq: 'weekly', priority: 0.5 },
+        { url: '/ueberuns', lastmod: '2024-05-15', changefreq: 'weekly', priority: 0.9 },
     
     ];
 
