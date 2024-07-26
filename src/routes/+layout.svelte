@@ -7,10 +7,7 @@
 
 <Header />
 <main>
-
     <slot />
-  
   <Banner />
 </main>
-
 <Footer />
